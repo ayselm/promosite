@@ -1,35 +1,40 @@
 @font-face {
   font-family: "proxima nova";
-src: url("../fonts/proximanova_regular.ttf") format("ttf");
-font-weight: normal;
+  src: url("../fonts/proximanova_regular.ttf") format("ttf");
+  font-weight: normal;
 }
 
-body{
-  font-family:"proxima nova";
+body {
+  font-family: "proxima nova";
   padding-top: 1px;
   background-color: black;
 }
 
-header{
+header {
   background: url(../img/letters.svg), url(../img/background.png);
   height: 100vh;
   background-size: contain, cover;
   background-repeat: no-repeat;
-  background-position:  top 100px center, top left;
+  background-position: top 100px center, top left;
 }
-.header_page{
+
+.header_page {
   background: none;
   height: auto;
 }
-a{color: inherit;
-text-decoration: none;}
 
-.button_nav{
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.button_nav {
   border: 1px solid white;
   border-radius: 50px;
   padding: 20px 60px;
 }
-nav{
+
+nav {
   background-color: black;
   color: white;
   padding: 25px 10px;
@@ -40,46 +45,46 @@ nav{
   box-sizing: border-box;
 }
 
-button{
+button {
   background: none;
   border: none;
   outline: none;
 }
 
-.burger{
+.burger {
   margin-left: calc(50% - 150px);
 }
 
-
-.menu{
+.menu {
   position: absolute;
   background-color: black;
   top: 108px;
-  right:0;
+  right: 0;
   height: calc(100vh - 108px);
   width: 300px;
   display: none;
 }
-.menu_bl{
+
+.menu_bl {
   border-left: 1px solid white;
 }
 
-.border_bt{
-    border-bottom: 1px solid white;
-}
-.menu li{
-  border-top: 1px solid white;
-padding: 25px;
-display: flex;
-justify-content: space-between;
-}
-
-.menu li:last-child{
+.border_bt {
   border-bottom: 1px solid white;
 }
 
+.menu li {
+  border-top: 1px solid white;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
 
-#book{
+.menu li:last-child {
+  border-bottom: 1px solid white;
+}
+
+#book {
   background-image: url(../img/bg_book.svg);
   height: 100vh;
   background-size: cover;
@@ -91,22 +96,20 @@ justify-content: space-between;
   padding-right: 200px;
   padding-left: 50px;
   box-sizing: border-box;
-
-
 }
-.book_img{
+
+.book_img {
   width: 95%;
   max-width: 800px;
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.env{
+.env {
   width: 80%;
   max-width: 800px;
 }
 
-
-#shop{
+#shop {
   background-color: black;
   background-image: url(../img/bg_shop_top.png), url(../img/bg_shop_bottom.png);
   background-position: left top, left bottom;
@@ -117,16 +120,16 @@ justify-content: space-between;
   box-sizing: border-box;
 }
 
-store_main{
+store_main {
   background-color: black;
 }
 
-.store_flex{
+.store_flex {
   display: flex;
   justify-content: space-between;
 }
 
-.buy{
+.buy {
   width: 80%;
   height: 59px;
   background-color: black;
@@ -142,75 +145,79 @@ store_main{
   cursor: pointer;
 }
 
-.buy:hover{
+.buy:hover {
   background-color: white;
   color: black;
 }
-.price{
+
+.price {
   background-color: white;
   color: black;
   border-radius: 40px;
   padding: 10px;
 }
 
-.store_component{
+.store_component {
   display: flex;
   flex-direction: column;
-justify-content: flex-end;
-width: 30%;
+  justify-content: flex-end;
+  width: 30%;
 }
 
-.store_component img{
+.store_component img {
   width: 100%;
 }
 
-.pencil{
+.pencil {
   max-width: 250px;
 }
-.wrapper{
+
+.wrapper {
   box-sizing: border-box;
   padding-left: 50px;
   width: calc(100% - 300px);
   padding-top: 100px;
 }
 
-#conception{
-    font-family: "proxima nova";
+#conception {
+  font-family: "proxima nova";
   background-color: white;
   height: calc(100vh - 111px);
   margin-top: 110px;
   overflow: hidden;
 }
-.conception_header h1{
+
+.conception_header h1 {
   font-size: 6vw;
 }
 
-#conception p{
+#conception p {
   font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 31px;
-width: 70%;
-margin-bottom: 100px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+  width: 70%;
+  margin-bottom: 100px;
 }
-.conception_headline h2{
+
+.conception_headline h2 {
   font-size: 7vw;
 }
 
-.marquee_1{
+.marquee_1 {
   background: #DE3B3B;
   border: 1px solid #000000;
   box-sizing: border-box;
   transform: rotate(-10deg);
   width: 103%;
-margin-left: -16px;
-font-size: 39px;
-padding: 7px 0;
-white-space: nowrap;
-transform-origin: center center;
+  margin-left: -16px;
+  font-size: 39px;
+  padding: 7px 0;
+  white-space: nowrap;
+  transform-origin: center center;
 }
 
-.marquee_2{
+.marquee_2 {
   background: #DE3B3B;
   border: 1px solid #000000;
   box-sizing: border-box;
@@ -223,40 +230,42 @@ transform-origin: center center;
   transform-origin: center center;
 }
 
-.conception_header{
+.conception_header {
   display: flex;
   justify-content: space-between;
-
 }
 
-.line{
+.line {
   border-bottom: 1px solid black;
 }
-.wrapper_conception{
+
+.wrapper_conception {
   box-sizing: border-box;
   padding-left: 50px;
   width: calc(100% - 300px);
   padding-top: 50px;
 }
 
-
-.flex{
+.flex {
   display: flex;
   align-items: flex-start;
   color: white;
   gap: 80px;
 }
-.wrapper_event{
+
+.wrapper_event {
   box-sizing: border-box;
   padding-left: 150px;
   width: calc(100% - 300px);
   padding-top: 160px;
   padding-bottom: 50px;
 }
-.event_img{
-width: 50%;
+
+.event_img {
+  width: 50%;
 }
-.event_text{
+
+.event_text {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -264,112 +273,108 @@ width: 50%;
   align-items: center;
 }
 
-.plus_gap{
+.plus_gap {
   gap: 180px;
 }
 
-.event_text p{
+.event_text p {
   font-size: 20px;
 }
 
-.event_01{
+.event_01 {
   width: 70%;
 }
 
-.event_02{
+.event_02 {
   width: 90%;
 }
 
-.arrow{
+.arrow {
   color: white;
 }
 
-
-.test_main{
+.test_main {
   background-image: url(../img/test_bg.svg);
-    height: calc(100vh - 111px);
-    background-repeat: no-repeat;
-    margin-top: 110px;
-    background-size: cover;
+  height: calc(100vh - 111px);
+  background-repeat: no-repeat;
+  margin-top: 110px;
+  background-size: cover;
 }
 
-
-.nav_test{
+.nav_test {
   justify-content: center;
 }
 
-.wrapper_test{
+.wrapper_test {
   text-align: right;
   box-sizing: border-box;
   padding: 200px;
 }
 
-.test_text{
+.test_text {
   position: relative;
-
 }
 
-.test_text img{
+.test_text img {
   position: absolute;
   right: -100px;
   top: -120px;
 }
 
-.test_text h1{
+.test_text h1 {
   font-family: 'proxima nova';
-font-style: normal;
-font-weight: 700;
-font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
 }
 
-.screen{
+.screen {
   height: calc(100vh - 111px);
   background-image: url(../img/bg_q.svg);
   padding-top: 111px;
 }
 
-.wrapper_question{
+.wrapper_question {
   text-align: right;
   box-sizing: border-box;
   padding: 200px 200px 0 200px;
 }
 
-.header_q{
+.header_q {
   display: flex;
   justify-content: space-between;
   padding: 30px;
   border: 1px solid black;
   border-radius: 75px;
-    align-items: center;
+  align-items: center;
 }
 
-
-.p_context{
+.p_context {
   font-size: 25px;
   text-align: left;
   width: 90%;
 }
 
-
-.number{
+.number {
   font-size: 40px;
 }
 
-label{
+label {
   display: flex;
   margin: 30px 0;
   justify-content: flex-end;
   gap: 40px;
   position: relative;
 }
-.new_input{
+
+.new_input {
   width: 20px;
   height: 20px;
   border-radius: 50%;
   border: 2px solid black;
 }
 
-.input{
+.input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -379,7 +384,8 @@ label{
 .input:checked+.new_input {
   background-color: black;
 }
-.answer{
+
+.answer {
   width: 400px;
   text-align: left;
   font-size: 20px;
@@ -387,129 +393,124 @@ label{
   margin-left: 30px;
 }
 
-.up{
+.up {
   transform: rotate(180deg);
 }
 
-.wh_arrow{
+.wh_arrow {
   margin-top: 20px;
 }
 
-.arrow_next{
+.arrow_next {
   position: relative;
   right: -200px;
 }
 
-
-.modal{
+.modal {
   height: 60vh;
   width: 60%;
   background-color: black;
   position: fixed;
   left: 50%;
-top: 50%;
-transform: translate(-50%,-50%);
-z-index: 5;
-color: white;
-display: none;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  color: white;
+  display: none;
 }
 
-.modal_border{
+.modal_border {
   padding: 20px 20px;
   border: 1px solid white;
   text-align: right;
 }
 
-.modal_text{
+.modal_text {
   display: flex;
   justify-content: center;
   align-items: center;
-height: calc(60vh - 80px);
+  height: calc(60vh - 80px);
 }
 
-.modal_text p{
+.modal_text p {
   width: 80%;
 }
 
-.show {display: block;}
+.show {
+  display: block;
+}
 
-.cancel{
+.cancel {
   cursor: pointer;
 }
 
-.button_black{
+.button_black {
   background-color: black;
   color: white;
   margin-top: 100px;
   margin-right: -150px;
 }
 
-
 @media screen and (max-width:850px) {
-  #shop{
+  #shop {
     background-image: none;
   }
 
-.store_flex{
-  flex-direction: column;
-  gap: 100px;
-  justify-content: center;
-  align-items: center;
-}
+  .store_flex {
+    flex-direction: column;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+  }
 
-.store_component{
-  width: 100%;
-  flex-direction: row;
-  align-items: center;
-  gap: 20px;
-}
+  .store_component {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
 
-.store_component img{
+  .store_component img {
     width: 50%;
-}
-.wrapper{
-width: calc(100% - 315px);
-}
+  }
 
-#conception p{
-  font-size: 16px;
-  line-height: 24px;
-}
+  .wrapper {
+    width: calc(100% - 315px);
+  }
 
-.conception_header h1{
+  #conception p {
+    font-size: 16px;
+    line-height: 24px;
+  }
 
+  .conception_header h1 {}
 
-}
+  .conception_header img {
+    width: 30%;
+  }
 
-.conception_header img{
-  width: 30%;
-}
+  .modal_text {
+    border: 1px solid white;
+  }
 
-.modal_text{
-  border: 1px solid white;
-}
+  .wrapper_event {
+    padding-left: 60px;
+    width: calc(100% - 315px);
+  }
 
-.wrapper_event{
-  padding-left: 60px;
-  width: calc(100% - 315px);
-}
+  .flex {
+    gap: 20px;
+  }
 
-.flex{
-  gap:20px;
-}
+  .event_text {
+    gap: 30px;
+  }
 
-.event_text{
-  gap:30px;
-}
+  .event_text p {
+    font-size: 16px;
+  }
 
-.event_text p{
-  font-size: 16px;
-}
-
-.wh_arrow{
-  width: 50px;
-}
-
-
-
+  .wh_arrow {
+    width: 50px;
+  }
 }
